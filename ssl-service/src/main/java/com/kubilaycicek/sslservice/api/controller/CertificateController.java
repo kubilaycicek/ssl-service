@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1/ssl")
 @RestController
 public class CertificateController {
-
     private final CertificateService certificateService;
 
     public CertificateController(CertificateService certificateService) {
