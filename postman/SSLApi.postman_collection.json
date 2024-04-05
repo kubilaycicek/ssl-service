@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "e2c0975e-30dd-49cd-bfd6-6293deb7e680",
+		"name": "SSLApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "5516837"
+	},
+	"item": [
+		{
+			"name": "verifySSL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"domainDTO\": {\r\n        \"url\": \"https://google.com.tr\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/ssl/verify"
+			},
+			"response": []
+		}
+	]
+}
